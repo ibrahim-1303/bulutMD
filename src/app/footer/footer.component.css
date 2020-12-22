@@ -1,0 +1,36 @@
+[id="footer"] {
+  background-color: #212121;
+  height: 120px;
+  min-width: 600px;
+  margin-top:60vmin;
+}
+
+[id="Anasayfa"] {
+  color: white;
+  font-size: large;
+}
+
+[id="Kullanıcı"] {
+  color: white;
+  font-size: large;
+}
+
+[id="Gizlilik"] {
+  font-size: large;
+}
+
+[id="facebook"] {
+  color: white;
+  font-size: 35px;
+  position: relative;
+  left: -430px;
+  top: 40px;
+}
+
+[id="twitter"] {
+  color: white;
+  font-size: 40px;
+  position: relative;
+  left: -400px;
+  top: 40px;
+}

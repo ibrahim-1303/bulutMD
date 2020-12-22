@@ -1,0 +1,32 @@
+[id="kart"] {
+  background-color: cadetblue;
+  width: 1rem;
+  height: 15rem;
+  left: 50px;
+  top: 70px;
+  min-width: 200px;
+}
+
+[id="kart1"] {
+  background-color: cadetblue;
+  width: 1rem;
+  height: 15rem;
+  left: 350px;
+  top: -170px;
+  min-width: 200px;
+}
+[id="film"]{
+  position: absolute;
+  top: 580px;
+  text-indent: 135px;
+  font-family: Verdana;
+  font-size: 30px;
+}
+
+[id="dizi"]{
+  position: absolute;
+  top: 598px;
+  text-indent: 435px;
+  font-family: Verdana;
+  font-size: 30px;
+}

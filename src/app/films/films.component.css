@@ -1,0 +1,19 @@
+[id="kart"] {
+  background-color: cadetblue;
+  width: 5rem;
+  height: 15rem;
+  left: 120px;
+  top: 70px;
+  min-width: 200px;
+  margin-top: 65%;
+}
+
+/* [id="kart1"] {
+  background-color: cadetblue;
+  width: 5rem;
+  height: 15rem;
+  left: 400px;
+  top: -170px;
+  min-width: 200px;
+
+} */

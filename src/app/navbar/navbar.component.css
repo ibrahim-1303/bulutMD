@@ -1,0 +1,37 @@
+[id="nav"] {
+  min-width: 600px;
+  background-color: black;
+  width: auto;
+  color: black;
+  height:70px;
+
+}
+
+[id="bulutmd"] {
+  color: white;
+  font-size: xx-large;
+  position:relative;
+  left: 100px;
+  top:-15px;
+
+}
+
+[id="giris"] {
+  color: white;
+  font-size: 25px;
+
+
+}
+
+[id="popüler"]{
+  background-color:#424242;
+  min-width: 600px;
+}
+
+[id=denemebaslat]{
+background-color: red;
+}
+
+
+
+

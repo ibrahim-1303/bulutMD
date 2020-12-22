@@ -1,0 +1,46 @@
+
+[id=search]{
+  position:absolute;
+  left:2%;
+  top:23%;
+  width:30%;
+  background-color:white;
+  color:grey;
+}
+
+button
+{
+  position:absolute;
+  width: 50%;
+  left: 100%;
+  top: 10%;
+}
+
+[id="select"]{
+  position:absolute;
+  left: 65%;
+
+  top: 23%;
+  height:4% ;
+
+}
+
+
+[id=sıralabutton]
+{
+
+  position:absolute;
+  left:31%;
+  top:165px;
+  width:17%;
+  background-color:white;
+  color:grey;
+
+}
+
+[id=filmlist]{
+
+  margin-bottom:0%;
+  margin-left: 0%;
+  margin-right: 0%;
+}

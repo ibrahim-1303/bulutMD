@@ -1,0 +1,44 @@
+
+<div class="row" id="serieslist">
+<!-- Search form -->
+<div class="col col-xl-4" id="search">
+  <input [(ngModel)]='Title' class="form-control" type="text" placeholder="Film/Dizi/Oyuncu Ara" aria-label="Search">
+  <button type="button" (click)="onTitleFilter()">ara</button>
+</div>
+
+
+
+<select [(ngModel)]='SortbyParam'   class="col col-md-3" id="select" >
+  <option value="releaseYear" >Yeniye Göre Sırala </option>
+  <option value="title" >İsme Göre Sırala </option>
+  <option value="title" >Rastgele Sırala </option>
+</select>
+
+<div id="sıralabutton" >
+<button  type="submit" (click)="onSortDirection()">
+  <i *ngIf="SortDirection==='asc'" class="fas fa-sort-alpha-down"></i>
+  <i *ngIf="SortDirection==='desc'" class="fas fa-sort-alpha-up"></i>
+</button>
+</div>
+<div class="row">
+
+
+   <div  *ngFor="let property of properties  |filter:Title:'title' |filter:programType:'programType'  |acilis:[SortbyParam,SortDirection]" class="shadow-xl ">
+
+    <app-films  [property]="property"></app-films>
+
+  </div>
+
+  <div class="row">
+
+
+    <div *ngFor="  let   property of  properties  |filter:programType:'programType' |acilis:[SortbyParam,SortDirection]  " class="shadow-xl ">
+
+     <app-films  [property]="property"></app-films>
+
+   </div>
+
+
+
+
+  </div>
